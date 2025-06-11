@@ -9,7 +9,6 @@ int main () {
 
 
     if(vetor == NULL){
-
         printf("Erro ao alocar memoria");
         exit(1);
     }//if para testar se a alocaçao esta funcionando e nao dar erro de segmentaçao
@@ -25,6 +24,7 @@ int main () {
 
     printf("\n");
 
+    
     //Utilizando realloc
     printf("Aumenta o vetor para 20\n");
 
