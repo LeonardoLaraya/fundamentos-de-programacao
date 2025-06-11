@@ -1,0 +1,30 @@
+Lista de Exercícios - Prova 2
+Condições de conclusão
+1) Crie uma função que receba uma string e retorne um ponteiro para uma outra string que foi alocada dinâmicamente contendo a mesma string mas agora com
+o conteúdo invertido.
+
+2) Escreva uma função que receba como parâmetro uma matriz A contendo N linhas e N colunas. A função deve retornar o ponteiro para um vetor B de tamanho
+N alocado dinamicamente, em que cada posição de B é a soma dos números daquela coluna da matriz.
+
+3) Escreva uma função que receba como parâmetro duas matrizes, A e B, e seus tamanhos. A função deve retornar o ponteiro para uma matriz C, em que C é o
+produto da multiplicação da matriz A pela matriz B. Se a multiplicação das matrizes não for possível, retorne um ponteiro nulo.
+
+4) Faça um programa que receba valores enquanto forem positivos. Para isso:
+
+Inicialmente, aloque dinamicamente um vetor de 5 números inteiros.
+A cada vez que preencher as posições disponíveis, realoque o vetor aumentando o seu tamanho em 5 posições.
+Ao receber um valor negativo, pare de solicitar novos valores e realoque o vetor para o tamanho exato da quantidade de elementos válidos digitados.
+Ao finalizar, exiba os valores recebidos e Libere a memória alocada.
+
+5) Faça um programa contendo duas funções: uma que receba o nome de um arquivo de texto contendo uma sequencia de números separados por espaços,
+o primeiro valor representa o tamanho da sequencia (quantidade de elementos) e salve os dados em um vetor alocado dinamicamente e retorne esse vetor.
+A segunda deve receber um vetor de inteiros e um inteiro contendo seu tamanho, ela deve calcular e retornar a soma dos elementos do vetor.
+
+6) Usando as funções do exercício anterior, crie um programa que leia um vetor de dados em um arquivos, calcule a soma dos elementos desse vetor
+e escreva a resposta no final arquivo original adicionando uma nova linha contendo "A soma dos valores é <valor>"
+
+7) Organize suas funções criando sua própria biblioteca em arquivos separados: um com os cabeçalhos e include guards (.h) e outro com as 
+implementações das funções (.c). o arquivo main.c que contém a função main deve importar e utilizar as funções da biblioteca. Para compilar seu programa,
+faça um arquivo makefile.
+
+Exemplos de arquivos a serem criados: vetor.c vetor.h main.c e Makefile
