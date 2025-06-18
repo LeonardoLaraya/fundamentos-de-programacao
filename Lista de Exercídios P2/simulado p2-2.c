@@ -173,7 +173,7 @@ Japão      |   45|    5|   10%|
 
 
     for (int i = 0; i < tamanho; i++){
-        ptrNtificacoes[i].servidorAtivos=(ptrNtificacoes[i].serverUP/(ptrNtificacoes[i].serverUP+ptrNtificacoes[i].serverDOWN))*100;
+        ptrNtificacoes[i].servidorAtivos=((float)ptrNtificacoes[i].serverUP/(ptrNtificacoes[i].serverUP+ptrNtificacoes[i].serverDOWN))*100;
     }
     
     printf("%-10s |%-5s |%-5s |%-5s |\n","PAIS","UP","DOWN","RATE");
